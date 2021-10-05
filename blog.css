@@ -9,7 +9,7 @@ body {
     padding-right: 15px;
 }
 
-.blogPost {
+.blogPostPreview {
     margin-top: 25px;
     width: 100%;
     height: 200px;
@@ -19,11 +19,28 @@ body {
     border-style: solid;
 }
 
-.blogPost:hover {
+.blogPostPreview:hover {
     background-color: #252525;
 }
 
 #mainCard {
     margin: 0 auto;
     width: 50%;
+}
+
+#blogPost {
+    margin-top: 25px;
+    width: 100%;
+    height: 800px;
+    background-color: #212121;
+    border-color: #444444;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.comment {
+    font-size: 14px;
+    border-color: #444444;
+    border-width: 1px;
+    border-style: solid;
 }
